@@ -1,11 +1,11 @@
 import React from 'react';
-
+import Router from './Router';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Les recettes de Bérénice</h1>
+      <Router />
     </div>
   );
 }
